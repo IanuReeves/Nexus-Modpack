@@ -24,3 +24,4 @@ minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
 !minecraft/options.txt
 
 #Automated gitignores:
+instance.cfg
