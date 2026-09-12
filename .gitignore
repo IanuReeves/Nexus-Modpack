@@ -1,7 +1,6 @@
 # Ignore everything
 
 # Keep instance configuration
-!instance.cfg
 
 # Keep the minecraft directory
 !minecraft/
@@ -14,43 +13,6 @@ minecraft/*
 minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
 
 # Keep these Minecraft directories
-!minecraft/config/
 !minecraft/mods/
 !minecraft/resourcepacks/
 !minecraft/shaderpacks/
-
-# Keep these Minecraft files
-!minecraft/icon.png
-!minecraft/options.txt
-
-#Automated gitignores:
-minecraft/config/ars_nouveau/search_index/_2m.cfe
-minecraft/config/ars_nouveau/search_index/_2m.cfe
-minecraft/config/ars_nouveau/search_index/_2m.cfs
-minecraft/config/ars_nouveau/search_index/_2m.cfe
-minecraft/config/zfastnoise.mixin.properties
-minecraft/config/iris.properties
-minecraft/config/fabric/indigo-renderer.properties
-minecraft/config/chunksmith/tasks/minecraft/overworld.properties
-minecraft/config/ars_nouveau/search_index/_2m.cfs
-minecraft/config/ars_nouveau/search_index/_2m.si
-minecraft/config/ars_nouveau/search_index/_2o.cfe
-minecraft/config/ars_nouveau/search_index/_2o.cfs
-minecraft/config/ars_nouveau/search_index/segments_2n
-minecraft/config/ars_nouveau/search_index/segments_2p
-minecraft/config/ars_nouveau/search_index/_2o.si
-minecraft/config/voxy-client.toml
-minecraft/config/explosionoverhaul/explosionoverhaul-common-1.toml.bak
-minecraft/config/explosionoverhaul/explosionoverhaul-common-2.toml.bak
-minecraft/config/explosionoverhaul/explosionoverhaul-common.toml
-minecraft/config/flywheel-client-1.toml.bak
-minecraft/config/flywheel-client-2.toml.bak
-minecraft/config/flywheel-client.toml
-minecraft/config/voxy-client-1.toml.bak
-minecraft/config/voxy-client-2.toml.bak
-minecraft/config/explosionoverhaul/explosionoverhaul-common-1.toml.bak
-minecraft/config/explosionoverhaul/explosionoverhaul-common.toml
-minecraft/config/flywheel-client-1.toml.bak
-minecraft/config/flywheel-client.toml
-minecraft/config/voxy-client-1.toml.bak
-minecraft/config/voxy-client.toml
