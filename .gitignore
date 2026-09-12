@@ -8,7 +8,7 @@
 
 # Ignore these files:
 minecraft/*
-mmc-pack.json
+!mmc-pack.json
 *.disabled
 
 minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
