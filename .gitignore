@@ -24,3 +24,17 @@ minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
 !minecraft/options.txt
 
 #Automated gitignores:
+minecraft/config/ars_nouveau/search_index/_2m.cfe
+minecraft/config/ars_nouveau/search_index/_2m.cfe
+minecraft/config/ars_nouveau/search_index/_2m.cfs
+minecraft/config/ars_nouveau/search_index/_2m.cfe
+minecraft/config/zfastnoise.mixin.properties
+minecraft/config/iris.properties
+minecraft/config/fabric/indigo-renderer.properties
+minecraft/config/chunksmith/tasks/minecraft/overworld.properties
+minecraft/config/ars_nouveau/search_index/_2m.cfs
+minecraft/config/ars_nouveau/search_index/_2m.si
+minecraft/config/ars_nouveau/search_index/_2o.cfe
+minecraft/config/ars_nouveau/search_index/_2o.cfs
+minecraft/config/ars_nouveau/search_index/segments_2n
+minecraft/config/ars_nouveau/search_index/segments_2p
