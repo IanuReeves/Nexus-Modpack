@@ -1,0 +1,18 @@
+filename = 'TrueAdaptiveMusicAPI-neoforge-neoforge-1.3.7+1.21.1.jar'
+name = 'True Adaptive Music API'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.7+1.21.1'
+
+[download]
+hash = '6d5db89e5bde71ae37513b6d178dd402d50c822a64f6d260afc850af7f52379e555a0f068018297168df5031d40b8d8360f4ca2a8061b177557f7433f1418142'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2Box4xvp/versions/wEOQzGre/TrueAdaptiveMusicAPI-neoforge-neoforge-1.3.7%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = '2Box4xvp'
+version = 'wEOQzGre'

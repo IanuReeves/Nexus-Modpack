@@ -1,5 +1,5 @@
 		[Action.parcool.grapple]
-			available = true
+			available = false
 			# Default: 0
 			# Range: 0 ~ 32767
 			cost_start = 0
@@ -344,7 +344,7 @@
 			learn_cost = 10
 
 [Game]
-	enable_skill_tree = true
+	enable_skill_tree = false
 	damage_without_glove = true
 
 [GrapplingHook]
@@ -436,4 +436,4 @@
 	#- [parcool:hunger]
 	#- [parcool:none]
 	#- [parcool:parcool]
-	stamina_type = "parcool:parcool"
+	stamina_type = "parcool:none"

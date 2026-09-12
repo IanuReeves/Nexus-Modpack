@@ -18,6 +18,9 @@
     "hellish_trials:nether_trial",
     "mns:mega_fortress",
     "create_sky_village:highwind_village",
-    "structory:boat"
+    "structory:boat",
+    "mss:white_house",
+    "integrated_villages:cabin_village",
+    "additionalstructures:pyramid_1"
   ]
 }

@@ -1,0 +1,18 @@
+filename = 'TrueAdaptiveMusic-neoforge-2.8.0+1.21.1.jar'
+name = 'True Adaptive Music'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.8.0+1.21.1'
+
+[download]
+hash = '72ce3ae063c9bdeb932bc3c0e663e3a5fd064a8625bac904f0eba9be1b6c5147027fe62c22f3c21fa1f0e2b80a73e85505d7e404a956b3b7e0085b81dd81f09a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UeDAoEyD/versions/lASzemq3/TrueAdaptiveMusic-neoforge-2.8.0%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'UeDAoEyD'
+version = 'lASzemq3'

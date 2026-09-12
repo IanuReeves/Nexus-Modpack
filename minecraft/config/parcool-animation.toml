@@ -3,7 +3,7 @@
 	enable_camera_animation = true
 
 	[Animation.Availability]
-		"parcool:fast_run" = true
+		"parcool:fast_run" = false
 		"parcool:crawl" = true
 		"parcool:dodge_right" = true
 		"parcool:dodge_front" = true
@@ -13,7 +13,7 @@
 		"parcool:climb_up_jump" = true
 		"parcool:trick_jump_back" = true
 		"parcool:trick_jump_forward" = true
-		"parcool:stride" = true
+		"parcool:stride" = false
 		"parcool:slide_down" = true
 		"parcool:breakfall_no_move" = true
 		"parcool:breakfall_forward" = true
@@ -38,6 +38,6 @@
 		"parcool:wall_run" = true
 		"parcool:castaway" = true
 		"parcool:pole_climb" = true
-		"parcool:fast_swim" = true
+		"parcool:fast_swim" = false
 		"parcool:grapple" = true
-		"parcool:creative_fly" = true
+		"parcool:creative_fly" = false
