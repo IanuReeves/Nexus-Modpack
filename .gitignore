@@ -13,6 +13,5 @@ minecraft/*
 
 # Ignore .disabled files
 minecraft/mods/*.disabled
-minecraft/mods/*.index/
 minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
 instance.cfg

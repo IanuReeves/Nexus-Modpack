@@ -1,0 +1,18 @@
+filename = 'skybornpiglins-1.0.0-neoforge-1.21.1.jar'
+name = 'Skyborn Piglins'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '627833cf7725e46e7745ad674c4681030921eea3ac5da11268e38896f3f66787b6523217ab0506b540a2aa4294819983fcb98fbf4384b726bf1f383d43c68a13'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bOllHHtA/versions/9yr4JOd3/skybornpiglins-1.0.0-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'bOllHHtA'
+version = '9yr4JOd3'
