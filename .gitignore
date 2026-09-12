@@ -1,5 +1,6 @@
 # Ignore everything
-
+instance.cfg
+mmc-pack.json
 
 # Keep the minecraft folder
 !minecraft/
