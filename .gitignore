@@ -1,18 +1,14 @@
 # Ignore everything
+*
 
-# Keep instance configuration
-
-# Keep the minecraft directory
+# Keep the minecraft folder
 !minecraft/
 
-# Ignore these files:
+# Ignore everything in minecraft
 minecraft/*
-!mmc-pack.json
-*.disabled
 
-minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
-
-# Keep these Minecraft directories
+# Keep the mods folder
 !minecraft/mods/
-!minecraft/resourcepacks/
-!minecraft/shaderpacks/
+
+# Ignore .disabled files
+minecraft/mods/*.disabled
