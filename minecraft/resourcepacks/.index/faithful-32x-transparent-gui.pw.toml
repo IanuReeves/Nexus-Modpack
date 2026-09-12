@@ -1,0 +1,35 @@
+filename = 'faithful-transparent-gui-32x-1-20-2.zip'
+name = 'Faithful 32x - Transparent GUI'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3'
+
+[download]
+hash = 'ea9a03245cf978d5e07e79156cf947048de168d52915dbe9181b161a77ef648f45e3b708756064fc9a1b6b3a19a77cec9fd9978e1633bcbfd2f12f093d29fd9c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qsHlJEsm/versions/SIBCDEM1/faithful-transparent-gui-32x-1-20-2.zip'
+
+[update.modrinth]
+mod-id = 'qsHlJEsm'
+version = 'SIBCDEM1'

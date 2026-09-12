@@ -1,0 +1,26 @@
+# Ignore everything
+
+# Keep instance configuration
+!instance.cfg
+
+# Keep the minecraft directory
+!minecraft/
+
+# Ignore these files:
+minecraft/*
+mmc-pack.json
+*.disabled
+
+minecraft/mods/physics-mod-pro-v185-neoforge-mc-1.21.1.jar
+
+# Keep these Minecraft directories
+!minecraft/config/
+!minecraft/mods/
+!minecraft/resourcepacks/
+!minecraft/shaderpacks/
+
+# Keep these Minecraft files
+!minecraft/icon.png
+!minecraft/options.txt
+
+#Automated gitignores:

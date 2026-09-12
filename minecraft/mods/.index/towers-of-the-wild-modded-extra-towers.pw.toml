@@ -1,0 +1,81 @@
+filename = 'towers-of-the-wild-modded-extra-towers-1.0.8.jar'
+name = 'Towers of the Wild Modded - Extra Towers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.8+mod'
+
+[download]
+hash = '74c7c0782b6d9333a4cef9389ba257dcc9c03178b40c0eaf95729793afa871966ca32fa92825585ec0de4de7ac52e6ce270d4a66925a799dc81448afe672738e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RJcwF5bg/versions/azmCiYpi/towers-of-the-wild-modded-extra-towers-1.0.8.jar'
+
+[update.modrinth]
+mod-id = 'RJcwF5bg'
+version = 'azmCiYpi'
+
+[[x-prismlauncher-dependencies]]
+addonId = '54eqfZSC'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LOpKHB2A'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iOMf65x8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7tl2Pt3c'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'y6ptCp9V'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4HSO5agm'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rcJBKEN0'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '38tpSycf'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fnAffV0n'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'F3kLpGw6'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'eA8SXqWL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69rMY8bC'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uHWrqYcS'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qlc8dxM6'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ejfl5qDL'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'f12ixI8d'
+type = 'OPTIONAL'

@@ -1,0 +1,12 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+# Default: 42
+# Range: > 0
+magicNumber = 42
+#Distance in blocks at which the raven teleports toward its destination during delivery Default = 25
+# Default: 25
+# Range: 6 ~ 256
+ravenTeleportDistance = 25
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]

@@ -1,0 +1,18 @@
+filename = 'Ice and Fire - Visual Rework v1.2.zip'
+name = 'Ice and Fire - Visual Rework'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'V1.2'
+
+[download]
+hash = 'f67dfa9df17f01054ad7a07500b465d9ace88b764f0352d49eb694b4becebdc436ee92b8abb8b5c4de79315e83911e30911d3281876cbc9c7b0559a900417dd7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Fn2YDy4Q/versions/fENE46HV/Ice and Fire - Visual Rework v1.2.zip'
+
+[update.modrinth]
+mod-id = 'Fn2YDy4Q'
+version = 'fENE46HV'

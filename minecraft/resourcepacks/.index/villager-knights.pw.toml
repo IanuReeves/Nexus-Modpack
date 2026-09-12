@@ -1,0 +1,25 @@
+filename = 'villagerknights-neoforge-1.21.1-hotfix.zip'
+name = 'Villager Knights'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'villagerknights-neoforge-1.21.1-hotfix.zip'
+
+[download]
+hash = 'b83cf37e58c3526fc1241dbcb5b279a8f641b3d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8726235
+project-id = 927669
+
+[[x-prismlauncher-dependencies]]
+addonId = '509041'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '360203'
+type = 'REQUIRED'

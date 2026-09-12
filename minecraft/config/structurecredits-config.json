@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "showOnlyOneTime": true,
+  "chatMessage": false,
+  "showCreator": true,
+  "customStructureName": {
+    "minecraft:swamp_hut": "a_cat:cat_hut"
+  },
+  "dontShowAll": [
+    "minecraft:",
+    "dimdungeons:"
+  ],
+  "dontShow": [
+    "minecraft:plains_village",
+    "minecraft:desert_village",
+    "giant_nether_tree:giant_nether_tree",
+    "netherexp:devils_misfortune",
+    "hellish_trials:nether_trial",
+    "mns:mega_fortress",
+    "create_sky_village:highwind_village",
+    "structory:boat"
+  ]
+}
