@@ -1,7 +1,7 @@
 #Sound system settings
 [Sounds]
 	#Enable advanced sound speed system for explosions. If disabled, sound always travels at 343 m/s.
-	enableAdvancedSoundSpeed = true
+	enableAdvancedSoundSpeed = false
 
 #
 #Player shake settings
@@ -88,11 +88,11 @@
 	#WARNING: When asynchronous and multi-threaded mode is enabled - destruction of VS objects - does not work.
 	enableAsyncCrater = false
 	#Maximum number of threads for off-thread crater geometry precomputation.
-	#0 = Auto (use all available: 16)
+	#0 = Auto (use all available: 12)
 	#1 = Single-threaded
-	#2-16 = Custom thread count for this system
+	#2-12 = Custom thread count for this system
 	# Default: 0
-	# Range: 0 ~ 16
+	# Range: 0 ~ 12
 	craterMaxThreads = 0
 	#Maximum number of blocks to evaluate/apply per server tick when building a crater.
 	#Higher values complete faster but can cause small TPS dips.
@@ -127,7 +127,7 @@
 #Settings for the ambient explosion system, creating a 'battlefield' atmosphere.
 [Ambient]
 	#Globally enables or disables the ambient explosion sound system.
-	enableAmbientExplosions = true
+	enableAmbientExplosions = false
 	#Minimum time in ticks between ambient explosion events (20 ticks = 1 second).
 	# Default: 1200
 	# Range: 100 ~ 72000
@@ -230,17 +230,17 @@
 		enableAmbientCaveDust = true
 
 #Settings for chunk scanning and block indexing system.
-#System detected: 16 CPU threads available
+#System detected: 12 CPU threads available
 #Configuration ranges are automatically adjusted for your system
 [Scan]
 	#Maximum number of threads to use for chunk scanning.
-	#Available range for your system: 0-16 threads
-	#0 = Auto-detect (recommended): uses all 16 available threads
+	#Available range for your system: 0-12 threads
+	#0 = Auto-detect (recommended): uses all 12 available threads
 	#1 = Single-threaded (slowest but safest)
-	#2-16 = Custom thread count for this system
-	#Your system supports up to 16 concurrent threads
+	#2-12 = Custom thread count for this system
+	#Your system supports up to 12 concurrent threads
 	# Default: 0
-	# Range: 0 ~ 16
+	# Range: 0 ~ 12
 	maxScanThreads = 0
 	#How much CPU power to use for chunk scanning (1-100%).
 	#100% = Maximum speed, uses all available threads intensively
