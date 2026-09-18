@@ -1,7 +1,20 @@
 {
   "customizedDynamicBlocks": [
     {
-      "blockID": "minecraft:waxed_exposed_copper_trapdoor",
+      "blockID": "minecraft:lilac",
+      "settingID": 0,
+      "Linked Physics": true,
+      "Fixed on bottom": true,
+      "No gravity": true,
+      "Side connection": false,
+      "Hitbox scale x": 1.0,
+      "Hitbox scale y": 1.0,
+      "Hitbox scale z": 1.0,
+      "Stiffness": 110.0,
+      "Damping": 48.0
+    },
+    {
+      "blockID": "minecraft:spruce_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -12,13 +25,34 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:kelp",
+      "blockID": "minecraft:waxed_copper_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:spruce_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:vine",
       "settingID": 0,
       "Linked Physics": true,
-      "Can link": "minecraft:kelp_plant",
-      "Fixed on bottom": true,
+      "Fixed on bottom": false,
       "No gravity": false,
-      "Side connection": false,
+      "Side connection": true,
       "Hitbox scale x": 1.0,
       "Hitbox scale y": 1.0,
       "Hitbox scale z": 1.0,
@@ -26,7 +60,7 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:oak_hanging_sign",
+      "blockID": "minecraft:jungle_hanging_sign",
       "settingID": 3,
       "Linked Physics": true,
       "Hitbox scale x": 0.9,
@@ -36,8 +70,8 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:iron_trapdoor",
-      "settingID": 2,
+      "blockID": "minecraft:mangrove_door",
+      "settingID": 1,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
       "Hitbox scale y": 0.85,
@@ -47,8 +81,8 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:warped_trapdoor",
-      "settingID": 2,
+      "blockID": "minecraft:birch_door",
+      "settingID": 1,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
       "Hitbox scale y": 0.85,
@@ -56,6 +90,41 @@
       "Stiffness": 1580.0,
       "Damping": 8.0,
       "Collision": true
+    },
+    {
+      "blockID": "minecraft:warped_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:jungle_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:sunflower",
+      "settingID": 0,
+      "Linked Physics": true,
+      "Fixed on bottom": true,
+      "No gravity": true,
+      "Side connection": false,
+      "Hitbox scale x": 1.0,
+      "Hitbox scale y": 1.0,
+      "Hitbox scale z": 1.0,
+      "Stiffness": 110.0,
+      "Damping": 48.0
     },
     {
       "blockID": "minecraft:dark_oak_hanging_sign",
@@ -68,21 +137,7 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:twisting_vines",
-      "settingID": 0,
-      "Linked Physics": true,
-      "Can link": "minecraft:twisting_vines_plant",
-      "Fixed on bottom": true,
-      "No gravity": true,
-      "Side connection": false,
-      "Hitbox scale x": 1.0,
-      "Hitbox scale y": 1.0,
-      "Hitbox scale z": 1.0,
-      "Stiffness": 2400.0,
-      "Damping": 10.0
-    },
-    {
-      "blockID": "minecraft:jungle_trapdoor",
+      "blockID": "minecraft:crimson_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -107,17 +162,140 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:tall_seagrass",
+      "blockID": "minecraft:sugar_cane",
       "settingID": 0,
       "Linked Physics": true,
       "Fixed on bottom": true,
-      "No gravity": false,
+      "No gravity": true,
       "Side connection": false,
       "Hitbox scale x": 1.0,
       "Hitbox scale y": 1.0,
       "Hitbox scale z": 1.0,
-      "Stiffness": 110.0,
-      "Damping": 48.0
+      "Stiffness": 2300.0,
+      "Damping": 90.0
+    },
+    {
+      "blockID": "minecraft:mangrove_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:crimson_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:oxidized_copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:warped_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:oak_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:exposed_copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:twisting_vines",
+      "settingID": 0,
+      "Linked Physics": true,
+      "Can link": "minecraft:twisting_vines_plant",
+      "Fixed on bottom": true,
+      "No gravity": true,
+      "Side connection": false,
+      "Hitbox scale x": 1.0,
+      "Hitbox scale y": 1.0,
+      "Hitbox scale z": 1.0,
+      "Stiffness": 2400.0,
+      "Damping": 10.0
+    },
+    {
+      "blockID": "minecraft:chain",
+      "settingID": 0,
+      "Linked Physics": true,
+      "Can link": "minecraft:lantern",
+      "Fixed on bottom": false,
+      "No gravity": false,
+      "Side connection": true,
+      "Hitbox scale x": 1.5,
+      "Hitbox scale y": 1.0,
+      "Hitbox scale z": 1.5,
+      "Stiffness": 60.0,
+      "Damping": 40.0
+    },
+    {
+      "blockID": "minecraft:waxed_oxidized_copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:iron_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:cherry_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
     },
     {
       "blockID": "minecraft:tall_grass",
@@ -133,198 +311,7 @@
       "Damping": 48.0
     },
     {
-      "blockID": "minecraft:acacia_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:oxidized_copper_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:sugar_cane",
-      "settingID": 0,
-      "Linked Physics": true,
-      "Fixed on bottom": true,
-      "No gravity": true,
-      "Side connection": false,
-      "Hitbox scale x": 1.0,
-      "Hitbox scale y": 1.0,
-      "Hitbox scale z": 1.0,
-      "Stiffness": 2300.0,
-      "Damping": 90.0
-    },
-    {
-      "blockID": "minecraft:mangrove_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:waxed_oxidized_copper_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:crimson_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:copper_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:spruce_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
-      "blockID": "minecraft:copper_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:birch_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
       "blockID": "minecraft:rose_bush",
-      "settingID": 0,
-      "Linked Physics": true,
-      "Fixed on bottom": true,
-      "No gravity": true,
-      "Side connection": false,
-      "Hitbox scale x": 1.0,
-      "Hitbox scale y": 1.0,
-      "Hitbox scale z": 1.0,
-      "Stiffness": 110.0,
-      "Damping": 48.0
-    },
-    {
-      "blockID": "minecraft:exposed_copper_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:jungle_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
-      "blockID": "minecraft:peony",
-      "settingID": 0,
-      "Linked Physics": true,
-      "Fixed on bottom": true,
-      "No gravity": true,
-      "Side connection": false,
-      "Hitbox scale x": 1.0,
-      "Hitbox scale y": 1.0,
-      "Hitbox scale z": 1.0,
-      "Stiffness": 110.0,
-      "Damping": 48.0
-    },
-    {
-      "blockID": "minecraft:iron_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:bamboo_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
-      "blockID": "minecraft:lilac",
-      "settingID": 0,
-      "Linked Physics": true,
-      "Fixed on bottom": true,
-      "No gravity": true,
-      "Side connection": false,
-      "Hitbox scale x": 1.0,
-      "Hitbox scale y": 1.0,
-      "Hitbox scale z": 1.0,
-      "Stiffness": 110.0,
-      "Damping": 48.0
-    },
-    {
-      "blockID": "minecraft:large_fern",
       "settingID": 0,
       "Linked Physics": true,
       "Fixed on bottom": true,
@@ -348,18 +335,7 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:waxed_weathered_copper_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:spruce_trapdoor",
+      "blockID": "minecraft:oxidized_copper_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -370,7 +346,7 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:waxed_copper_door",
+      "blockID": "minecraft:acacia_door",
       "settingID": 1,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -379,38 +355,6 @@
       "Stiffness": 1580.0,
       "Damping": 8.0,
       "Collision": true
-    },
-    {
-      "blockID": "minecraft:bamboo_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:bamboo_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:mangrove_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
     },
     {
       "blockID": "minecraft:cave_vines",
@@ -427,87 +371,70 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:cherry_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:crimson_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
-      "blockID": "minecraft:weathered_copper_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:exposed_copper_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:acacia_trapdoor",
-      "settingID": 2,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:acacia_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
-      "blockID": "minecraft:jungle_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:vine",
+      "blockID": "minecraft:peony",
       "settingID": 0,
       "Linked Physics": true,
-      "Fixed on bottom": false,
+      "Fixed on bottom": true,
+      "No gravity": true,
+      "Side connection": false,
+      "Hitbox scale x": 1.0,
+      "Hitbox scale y": 1.0,
+      "Hitbox scale z": 1.0,
+      "Stiffness": 110.0,
+      "Damping": 48.0
+    },
+    {
+      "blockID": "minecraft:waxed_weathered_copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:waxed_exposed_copper_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:iron_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:kelp",
+      "settingID": 0,
+      "Linked Physics": true,
+      "Can link": "minecraft:kelp_plant",
+      "Fixed on bottom": true,
       "No gravity": false,
-      "Side connection": true,
+      "Side connection": false,
       "Hitbox scale x": 1.0,
       "Hitbox scale y": 1.0,
       "Hitbox scale z": 1.0,
@@ -515,41 +442,8 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:crimson_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:spruce_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:warped_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:waxed_exposed_copper_door",
-      "settingID": 1,
+      "blockID": "minecraft:waxed_oxidized_copper_trapdoor",
+      "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
       "Hitbox scale y": 0.85,
@@ -570,7 +464,7 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:waxed_weathered_copper_trapdoor",
+      "blockID": "minecraft:acacia_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -581,7 +475,18 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:sunflower",
+      "blockID": "minecraft:mangrove_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:large_fern",
       "settingID": 0,
       "Linked Physics": true,
       "Fixed on bottom": true,
@@ -594,7 +499,7 @@
       "Damping": 48.0
     },
     {
-      "blockID": "minecraft:oak_trapdoor",
+      "blockID": "minecraft:exposed_copper_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -605,7 +510,7 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:birch_door",
+      "blockID": "minecraft:crimson_door",
       "settingID": 1,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -616,29 +521,7 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:mangrove_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:oak_door",
-      "settingID": 1,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.85,
-      "Hitbox scale y": 0.85,
-      "Hitbox scale z": 0.85,
-      "Stiffness": 1580.0,
-      "Damping": 8.0,
-      "Collision": true
-    },
-    {
-      "blockID": "minecraft:cherry_hanging_sign",
+      "blockID": "minecraft:birch_hanging_sign",
       "settingID": 3,
       "Linked Physics": true,
       "Hitbox scale x": 0.9,
@@ -648,17 +531,15 @@
       "Damping": 45.0
     },
     {
-      "blockID": "minecraft:chain",
-      "settingID": 0,
+      "blockID": "minecraft:waxed_copper_door",
+      "settingID": 1,
       "Linked Physics": true,
-      "Fixed on bottom": false,
-      "No gravity": false,
-      "Side connection": true,
-      "Hitbox scale x": 1.5,
-      "Hitbox scale y": 1.0,
-      "Hitbox scale z": 1.5,
-      "Stiffness": 60.0,
-      "Damping": 40.0
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
     },
     {
       "blockID": "minecraft:birch_trapdoor",
@@ -672,17 +553,7 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:warped_hanging_sign",
-      "settingID": 3,
-      "Linked Physics": true,
-      "Hitbox scale x": 0.9,
-      "Hitbox scale y": 0.9,
-      "Hitbox scale z": 0.9,
-      "Stiffness": 45.0,
-      "Damping": 45.0
-    },
-    {
-      "blockID": "minecraft:waxed_copper_trapdoor",
+      "blockID": "minecraft:oak_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -693,8 +564,117 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:oxidized_copper_trapdoor",
+      "blockID": "minecraft:tall_seagrass",
+      "settingID": 0,
+      "Linked Physics": true,
+      "Fixed on bottom": true,
+      "No gravity": false,
+      "Side connection": false,
+      "Hitbox scale x": 1.0,
+      "Hitbox scale y": 1.0,
+      "Hitbox scale z": 1.0,
+      "Stiffness": 110.0,
+      "Damping": 48.0
+    },
+    {
+      "blockID": "minecraft:bamboo_trapdoor",
       "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:oak_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:weathered_copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:copper_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:acacia_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:bamboo_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:bamboo_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:jungle_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:waxed_exposed_copper_door",
+      "settingID": 1,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:cherry_door",
+      "settingID": 1,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
       "Hitbox scale y": 0.85,
@@ -715,7 +695,17 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:weathered_copper_trapdoor",
+      "blockID": "minecraft:spruce_hanging_sign",
+      "settingID": 3,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.9,
+      "Hitbox scale y": 0.9,
+      "Hitbox scale z": 0.9,
+      "Stiffness": 45.0,
+      "Damping": 45.0
+    },
+    {
+      "blockID": "minecraft:warped_trapdoor",
       "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
@@ -726,8 +716,19 @@
       "Collision": true
     },
     {
-      "blockID": "minecraft:waxed_oxidized_copper_door",
-      "settingID": 1,
+      "blockID": "minecraft:waxed_weathered_copper_trapdoor",
+      "settingID": 2,
+      "Linked Physics": true,
+      "Hitbox scale x": 0.85,
+      "Hitbox scale y": 0.85,
+      "Hitbox scale z": 0.85,
+      "Stiffness": 1580.0,
+      "Damping": 8.0,
+      "Collision": true
+    },
+    {
+      "blockID": "minecraft:weathered_copper_trapdoor",
+      "settingID": 2,
       "Linked Physics": true,
       "Hitbox scale x": 0.85,
       "Hitbox scale y": 0.85,

@@ -1,18 +1,15 @@
 # Streams Reflowing -- custom bank features
 
-This pass plants features on the land around water. As of 2.13.0 the mod SHIPS a default set as ordinary
-files in this folder -- hand-built fallen logs and trees matched to their forests, pale driftwood on
-beaches and in dry country -- and you own them from there:
+This pass plants features on the land around water. The mod ships NO entries: this folder starts with
+just this README, the full guide and an example, and the pass does nothing until you add a file here (or
+a datapack adds one). Every matching entry runs (there is no override contest like bank styles have).
 
-- **Remove one**: delete its file. It stays deleted (a `.seeded_defaults` marker remembers what has been
-  seeded, so deletion is final). Delete the marker itself to restore every default.
-- **Change how often it appears**: edit `chance` in its file.
-- **Change where**: edit `biomes` / `tags` / the excludes.
-- **Change the shape itself** (blocks, sizes, leaf density): the features live in the mod's datapack at
-  `data/streamsreflowing/worldgen/configured_feature/` -- override any of them from a datapack.
-
-Your own entries live here too, exactly like the defaults. Every matching entry runs (there is no
-override contest like bank styles have).
+- **How often one appears**: `chance` in its file.
+- **Where**: `biomes` / `tags` / the excludes.
+- **What**: any placed feature by id. The mod's own bank pieces are available to reference --
+  `streamsreflowing:fallen_log_a` / `_b`, `fallen_log_stub_a` / `_b` (and their `_pale` driftwood
+  variants), `fallen_tree_small`, `fallen_tree_acacia`, `fallen_tree_jungle_a` / `_b` -- and a structure
+  you save with a structure block can be placed the same way (see the guide).
 
 > **Full guide** (every field, more examples, datapacks, and bank styles too): see `GUIDE.md` in this
 > folder. This file is the quick reference.

@@ -106,3 +106,33 @@ distantPowerGridWires = true
 # Default: 0
 # Range: 0 ~ 192
 distantPowerGridWireMaxChunks = 0
+#Render Create and Copycats+ camouflage blocks with dedicated LOD meshes
+distantCopycats = true
+#Maximum Copycats+ LOD distance in chunks. 0 follows Voxy's LOD radius.
+# Default: 0
+# Range: 0 ~ 192
+distantCopycatsMaxChunks = 0
+#Render Simulated laser-pointer beams beyond block-entity render distance
+distantSimulatedLasers = true
+#Maximum Simulated laser LOD distance in chunks. 0 follows Voxy's LOD radius.
+# Default: 0
+# Range: 0 ~ 192
+distantSimulatedLaserMaxChunks = 0
+#Render FramedBlocks camouflaged models in the LOD
+distantFramedBlocks = true
+#Maximum FramedBlocks LOD distance in chunks. 0 follows Voxy's LOD radius.
+# Default: 0
+# Range: 0 ~ 192
+distantFramedBlocksMaxChunks = 0
+#Render cached LittleTiles microblock meshes beyond vanilla view distance
+distantLittleTiles = true
+#Maximum LittleTiles LOD distance in chunks. 0 follows Voxy's LOD radius.
+# Default: 0
+# Range: 0 ~ 192
+distantLittleTilesMaxChunks = 0
+#Render detailed Domum Ornamentum models in the LOD
+distantDomum = true
+#Maximum Domum Ornamentum LOD distance in chunks. 0 follows Voxy's LOD radius.
+# Default: 0
+# Range: 0 ~ 192
+distantDomumMaxChunks = 0

@@ -5,7 +5,7 @@ earlyWindowControl = true
 #Max threads for early initialization parallelism,  -1 is based on processor count
 maxThreads = -1
 #Enable NeoForge global version checking
-versionCheck = false
+versionCheck = true
 #Default config path for servers
 defaultConfigPath = "defaultconfigs"
 #Disables Optimized DFU client-side - already disabled on servers
@@ -24,11 +24,9 @@ earlyWindowMaximized = false
 earlyWindowSkipGLVersions = []
 #Squir?
 earlyWindowSquir = false
-
 #Define dependency overrides below
 #Dependency overrides can be used to forcibly remove a dependency constraint from a mod or to force a mod to load AFTER another mod
 #Using dependency overrides can cause issues. Use at your own risk.
 #Example dependency override for the mod with the id 'targetMod': dependency constraints (incompatibility clauses or restrictive version ranges) against mod 'dep1' are removed, and the mod will now load after the mod 'dep2'
 #dependencyOverrides.targetMod = ["-dep1", "+dep2"]
-[dependencyOverrides]
-	sable = ["-scalablelux"]
+dependencyOverrides = {}
