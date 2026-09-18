@@ -52,5 +52,5 @@
   "ecliptic_seasons_snow_lod": true,
   "ecliptic_seasons_lod_auto_reload": false,
   "ecliptic_seasons_reload_on_season_change": false,
-  "show_join_message": true
+  "show_join_message": false
 }

@@ -3,6 +3,7 @@
   "name": "Default",
   "overrides": {},
   "packIds": [
+    "aeronauticshotairfix:hot_air_fix",
     "file/Nexus Resources",
     "file/FBGFSGF v1.0.zip",
     "file/Simple Grass Flowers v2.0.0.zip",
