@@ -73,90 +73,6 @@ globalExecutorParallelism = "default"
 	# 
 	disableLoggingShutdownHook = "default"
 
-	[clientSideConfig.modifyMaxVDConfig]
-		# ================================================================
-		# (Default: true) Whether to modify maximum view distance
-		enabled = "default"
-		# ================================================================
-		# (Default: 66) Max render distance allowed in game options
-		maxViewDistance = "default"
-		# ================================================================
-		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
-		# This allows requesting render distances higher than 127 chunks from the server
-		# 
-		# Note: The server must advertise support this protocol for this to work
-		# 
-		enableExtRenderDistanceProtocol = "default"
-
-[vanillaWorldGenOptimizations]
-	# ================================================================
-	# (Default: true) Whether to use density function compiler to accelerate world generation
-	# 
-	# Density function: https://minecraft.wiki/w/Density_function
-	# 
-	# This functionality compiles density functions from world generation
-	# datapacks (including vanilla generation) to JVM bytecode to increase
-	# performance by allowing JVM JIT to better optimize the code
-	# 
-	# Currently, all functions provided by vanilla are implemented.
-	# Chunk upgrades from pre-1.18 versions are not implemented and will
-	# fall back to the unoptimized version of density functions.
-	# 
-	useDensityFunctionCompiler = "default"
-	# ================================================================
-	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
-	# 
-	# Depends on vanillaWorldGenOptimizations.useDensityFunctionCompiler
-	# 
-	enableBuiltinDFCIntegrations = "default"
-	# ================================================================
-	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
-	# (may cause incompatibility with other mods)
-	optimizeAquifer = "default"
-	# ================================================================
-	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
-	# This is no longer included in lithium-fabric 
-	# (may cause incompatibility with other mods)
-	# 
-	useEndBiomeCache = "default"
-	# ================================================================
-	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
-	# 
-	optimizeStructureWeightSampler = "default"
-
-[noTickViewDistance]
-	# ================================================================
-	# (Default: 15) No-tick view distance max concurrent chunk loads 
-	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = "default"
-	# ================================================================
-	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
-	# This allows requesting render distances higher than 127 chunks from the server
-	# 
-	enableExtRenderDistanceProtocol = "default"
-	# ================================================================
-	# (Default: false) Whether to ensure correct chunks within normal render distance 
-	#  This will send chunks twice increasing network load
-	ensureChunkCorrectness = "default"
-	# ================================================================
-	# (Default: 200) Applies a multiplier *in percentage* to the target chunk sending rate from vanilla
-	# Setting this to 0 disables rate limiting
-	# 
-	# Defaults to 200, which is 200%
-	# 
-	chunkSendingSpeedMultiplierPercentage = "default"
-
-[ioSystem]
-	# ================================================================
-	# (Default: 8192) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
-	# ================================================================
-	# (Default: 32678) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
-	# ================================================================
-	# (Default: true) Whether to use the optimized implementation of IO system
-	replaceImpl = "default"
-
 [chunkSystem]
 	# ================================================================
 	# (Default: true) Whether to enable async serialization
@@ -262,3 +178,89 @@ globalExecutorParallelism = "default"
 		# Please preserve quotes so this config don't break
 		# 
 		mode = "default"
+
+	[clientSideConfig.modifyMaxVDConfig]
+		# ================================================================
+		# (Default: true) Whether to modify maximum view distance
+		enabled = "default"
+		# ================================================================
+		# (Default: 66) Max render distance allowed in game options
+		maxViewDistance = "default"
+		# ================================================================
+		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
+		# This allows requesting render distances higher than 127 chunks from the server
+		# 
+		# Note: The server must advertise support this protocol for this to work
+		# 
+		enableExtRenderDistanceProtocol = "default"
+
+[vanillaWorldGenOptimizations]
+	# ================================================================
+	# (Default: true) Whether to use density function compiler to accelerate world generation
+	# 
+	# Density function: https://minecraft.wiki/w/Density_function
+	# 
+	# This functionality compiles density functions from world generation
+	# datapacks (including vanilla generation) to JVM bytecode to increase
+	# performance by allowing JVM JIT to better optimize the code
+	# 
+	# Currently, all functions provided by vanilla are implemented.
+	# Chunk upgrades from pre-1.18 versions are not implemented and will
+	# fall back to the unoptimized version of density functions.
+	# 
+	useDensityFunctionCompiler = "default"
+	# ================================================================
+	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
+	# 
+	# Depends on vanillaWorldGenOptimizations.useDensityFunctionCompiler
+	# 
+	enableBuiltinDFCIntegrations = "default"
+	# ================================================================
+	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
+	# (may cause incompatibility with other mods)
+	optimizeAquifer = "default"
+	# ================================================================
+	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
+	# This is no longer included in lithium-fabric 
+	# (may cause incompatibility with other mods)
+	# 
+	# Set to false for the following reasons: 
+	# Incompatible with biolith@3.0.10 (*) (defined in c2me) 
+	useEndBiomeCache = "default"
+	# ================================================================
+	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
+	# 
+	optimizeStructureWeightSampler = "default"
+
+[noTickViewDistance]
+	# ================================================================
+	# (Default: 15) No-tick view distance max concurrent chunk loads 
+	#  Lower this for a better latency and higher this for a faster loading
+	maxConcurrentChunkLoads = "default"
+	# ================================================================
+	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
+	# This allows requesting render distances higher than 127 chunks from the server
+	# 
+	enableExtRenderDistanceProtocol = "default"
+	# ================================================================
+	# (Default: false) Whether to ensure correct chunks within normal render distance 
+	#  This will send chunks twice increasing network load
+	ensureChunkCorrectness = "default"
+	# ================================================================
+	# (Default: 200) Applies a multiplier *in percentage* to the target chunk sending rate from vanilla
+	# Setting this to 0 disables rate limiting
+	# 
+	# Defaults to 200, which is 200%
+	# 
+	chunkSendingSpeedMultiplierPercentage = "default"
+
+[ioSystem]
+	# ================================================================
+	# (Default: 8192) Soft limit for io worker nbt cache
+	chunkDataCacheSoftLimit = "default"
+	# ================================================================
+	# (Default: 32678) Hard limit for io worker nbt cache
+	chunkDataCacheLimit = "default"
+	# ================================================================
+	# (Default: true) Whether to use the optimized implementation of IO system
+	replaceImpl = "default"

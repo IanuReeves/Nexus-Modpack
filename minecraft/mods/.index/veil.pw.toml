@@ -1,0 +1,33 @@
+filename = 'veil-neoforge-1.21.1-4.5.0.jar'
+name = 'Veil'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.5.0'
+
+[download]
+hash = 'ed11de1bb1b8896bd8d783f9d64257a747197bec3e6d28fa8c108467e9b8acaad9b5ea356738157502544818911688b2550325fdd303d29023d4434c1429b018'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3KUWeVhG/versions/NJrA7V8Y/veil-neoforge-1.21.1-4.5.0.jar'
+
+[update.modrinth]
+mod-id = '3KUWeVhG'
+version = 'NJrA7V8Y'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qy8EtCnG'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4ZqxOvjD'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sk9rgfiA'
+type = 'INCOMPATIBLE'

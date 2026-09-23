@@ -1,0 +1,18 @@
+filename = 'NotEnoughTrials-1.21-v6.4-Neoforge.jar'
+name = 'Not Enough Trials'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.4'
+
+[download]
+hash = '227b9805fcbd0fdd0f320c762acdaacf20378a18b29e163178bf3f7d7a5288a27bd9f2988dd30c33ed65cede81dac4b1882da177c32f00fa87f01050dffc76a0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1W5PhsYU/versions/8k3cwiQv/NotEnoughTrials-1.21-v6.4-Neoforge.jar'
+
+[update.modrinth]
+mod-id = '1W5PhsYU'
+version = '8k3cwiQv'

@@ -1,0 +1,18 @@
+filename = 'Distant Horizons SeedGen 0.6.0 for 1.21.1 NeoForge.jar'
+name = 'Distant Horizons SeedGen'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.6.0'
+
+[download]
+hash = '1812fde5b825497d2b9278da0919ca91ccf0cb908fafaae490dc48f2f78b21abc6f67461c429be9bf65b2544847205af65bad61e30dcc774c9b9002fb7bb3e5a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iUGLCJTI/versions/MTBi2r4u/Distant Horizons SeedGen 0.6.0 for 1.21.1 NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'iUGLCJTI'
+version = 'MTBi2r4u'

@@ -10,6 +10,7 @@ minecraft/*
 
 # Keep the mods folder
 !minecraft/mods/
+!minecraft/config/
 
 # Ignore .disabled files
 minecraft/mods/*.disabled

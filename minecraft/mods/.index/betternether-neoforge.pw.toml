@@ -1,0 +1,29 @@
+filename = 'BetterNether-21.0.27.jar'
+name = 'BetterNether: New Dawn'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.0.27'
+
+[download]
+hash = '3a565453676afe0a57ed7924230e0f6776a3c129824e4252f8ecc7096bf3ff62e713746c6e4c2a67f9d7a746e3e8d59da32b184b5eae622efd7a1db83182f5e6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fxX3RlL5/versions/MwTp39qc/BetterNether-21.0.27.jar'
+
+[update.modrinth]
+mod-id = 'fxX3RlL5'
+version = 'MwTp39qc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HZmhgdJk'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R8uGDQpB'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7bdKEtKC'
+type = 'REQUIRED'

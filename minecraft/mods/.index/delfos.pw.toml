@@ -1,0 +1,18 @@
+filename = 'delfos-1.21.1.jar'
+name = 'Delfos - Ruins Structure ✅'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1+mod'
+
+[download]
+hash = 'b07eab88aeacd4772ac9e26905494dda4f9c7042c4294d3d6014318103ebbb7be68582a13310ccfbc5e8197572c9a3758a70a1458b4dab0b420eca9922e59f40'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6iYdpaVB/versions/9zQqlP8N/delfos-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '6iYdpaVB'
+version = '9zQqlP8N'

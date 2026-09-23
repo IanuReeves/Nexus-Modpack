@@ -1,0 +1,26 @@
+{
+  "locked": false,
+  "name": "Default",
+  "overrides": {},
+  "packIds": [
+    "file/Nexus Resources",
+    "file/Fast Better Grass Compat",
+    "file/FBGFSGF v1.0.zip",
+    "file/Simple Grass Flowers v2.0.0.zip",
+    "file/Fast Better Grass.zip",
+    "file/§eXaero\u0027s-Map-Frame-Frilled.zip",
+    "file/Xaero\u0027s Vanilla GUI.zip",
+    "file/§6Immersive_Interfaces_Modded.zip",
+    "file/§6Immersive§8_§6Interfaces§8.zip",
+    "file/BetterHUD.zip",
+    "file/faithful-transparent-gui-32x-1-20-2.zip",
+    "file/Ice and Fire - Visual Rework v1.2.zip",
+    "file/ETF Button Remagined v1.2.0.zip",
+    "file/FA+Player-v1.1.zip",
+    "file/FreshAnimations_v1.10.4.zip",
+    "mod/sound_physics_remastered:resourcepacks/create_train_long_range",
+    "mod/sound_physics_remastered:resourcepacks/amplified_aeronautics_propellers",
+    "mod_resources",
+    "vanilla"
+  ]
+}

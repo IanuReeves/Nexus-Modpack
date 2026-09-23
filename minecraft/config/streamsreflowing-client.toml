@@ -55,7 +55,7 @@ streamParticleScanRadius = 256
 #  true = on (default).  false = only this mod's streams get the whitewater.
 #Perf: CLIENT FPS. Extends particle work to all water, not just streams.
 #World: safe on an existing world -- applies the moment you save, everywhere.
-particlesOnVanillaWater = true
+particlesOnVanillaWater = false
 #
 #Floating debris on the stream surface: sticks and (on 1.21.4+) leaves drifting downstream with
 #the current. Purely visual and client-side.

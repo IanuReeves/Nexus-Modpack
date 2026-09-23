@@ -21,8 +21,8 @@
   "cpuThreads": 2,
   "itemPhysics": true,
   "minecraftBlockBreakParticles": true,
-  "vinePhysics": false,
-  "capePhysics": true,
+  "vinePhysics": true,
+  "capePhysics": false,
   "fishingRodPhysics": true,
   "leashPhysics": true,
   "bannerPhysics": true,
@@ -47,7 +47,7 @@
   "soundVolume": 1.0,
   "blockPhysicsRange": 96.0,
   "vineRange": 32.0,
-  "snowPhysics": true,
+  "snowPhysics": false,
   "snowTracks": true,
   "snowTrackEntities": 6,
   "snowTrackDistance": 48.0,
@@ -55,7 +55,7 @@
   "grassSnowy": true,
   "snowType": 0,
   "snowSmoothShading": true,
-  "snowChunkSize": 1,
+  "snowChunkSize": 0,
   "blockSettings": {
     "Physics Type": 3,
     "Lifetime": 4.0,
@@ -105,7 +105,7 @@
   "smokeFire": 0.3,
   "smokeOther": 1.0,
   "maxLoadedDynamicBlocks": 20,
-  "windPhysics": true,
+  "windPhysics": false,
   "weatherParticles": true,
   "weatherClearStrength": 0.1,
   "weatherRainStrength": 1.0,
@@ -120,7 +120,7 @@
   "fftOcean": {
     "windTurbulence": 0.096
   },
-  "oceanAdjustHitbox": true,
+  "oceanAdjustHitbox": false,
   "oceanDetail": 1.0,
   "oceanWaveHeightMultiplier": 1.0,
   "oceanBlockRange": 32,
@@ -173,6 +173,10 @@
     "minecraft:the_end",
     0.0,
     -9.81,
+    0.0,
+    "deeperdarker:otherside",
+    0.0,
+    -9.81,
     0.0
   ],
   "customizedBuoyancies": [
@@ -185,6 +189,10 @@
     2.0,
     0.0,
     "minecraft:the_end",
+    0.0,
+    2.0,
+    0.0,
+    "deeperdarker:otherside",
     0.0,
     2.0,
     0.0

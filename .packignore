@@ -1,3 +1,4 @@
+.git
 minecraft/.mixin.out
 minecraft/.physics_mod_cache
 minecraft/.qmenu_opened.marker
@@ -16,6 +17,7 @@ minecraft/defaultconfigs
 minecraft/downloads
 minecraft/dynamic-data-pack-cache
 minecraft/dynamic-resource-pack-cache
+minecraft/horizon-lod
 minecraft/local
 minecraft/moddata
 minecraft/moonlight-global-datapacks

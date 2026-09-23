@@ -483,7 +483,7 @@ welcomeMessage = true
 	#Turn this on if you want the stream look without changing how water behaves anywhere else.
 	#Perf: negligible either way.
 	#World: safe on an existing world -- applies the moment you save, everywhere.
-	spillOnStreamsOnly = true
+	spillOnStreamsOnly = false
 	#
 	#Load chunks faster on packs that generate chunks in parallel. Has no effect otherwise.
 	#Turn this OFF if world generation crashes, or if chunks stop loading around you.
@@ -499,7 +499,7 @@ welcomeMessage = true
 	#  true = flowing streams (default).  false = streams stay still water.
 	#Perf: light. Builds a small current grid per chunk in the background.
 	#World: safe on an existing world -- applies the moment you save, everywhere.
-	vanillaWaterFlow = true
+	vanillaWaterFlow = false
 	#
 	#Give flat vanilla / terrain-mod rivers a single coherent downstream current toward the sea (a whole
 	#river flows one way, not a patchwork of conflicting currents). Needs vanillaWaterFlow on.
@@ -507,7 +507,7 @@ welcomeMessage = true
 	#  true = flow vanilla rivers (default).  false = leave them still.
 	#Perf: moderate background work when new areas load; nothing once built.
 	#World: safe on an existing world -- applies to chunks generated from now on, no restart needed. Land already generated keeps its current look.
-	flowVanillaRivers = true
+	flowVanillaRivers = false
 	#
 	#Keep a river flowing ONE way where it crosses between two areas of the map. Each area works
 	#out its currents on its own, and a long river can be judged differently at each end, which

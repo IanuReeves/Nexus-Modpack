@@ -1,0 +1,48 @@
+#Process each chunk once per four ticks with four ticks of surface samples.
+surfacePhasesEnabled = true
+#Base surface samples per ticked chunk; phased ticks multiply this by four.
+# Default: 2
+# Range: 0 ~ 16
+surfaceSamplesPerChunk = 2
+#Use the loaded center biome when a non-radar cardinal climate sample is unloaded.
+centerBiomeFallbackEnabled = true
+#Bound PMWeather's modified precipitation attempts per level tick.
+precipitationBudgetEnabled = true
+#Maximum PMWeather modified precipitation attempts per level tick; excess uses vanilla handling.
+# Default: 256
+# Range: 0 ~ 4096
+precipitationAttemptsPerLevelTick = 256
+#Reuse exact same-tick PMWeather isRainingAt results at the same block position.
+rainQueryCacheEnabled = true
+#Reuse exact thermodynamic inputs and samples inside one precipitation column.
+precipitationSampleReuseEnabled = true
+#Skip unused pressure and dewpoint work after precipitation temperature is final.
+precipitationTemperaturePathEnabled = true
+#Reuse the exact surface height already sampled by PMWeather's environmental damage pass.
+damageWindHeightReuseEnabled = true
+#Stop PMWeather's wind-exposure ray checks as soon as an open direction is found.
+windExposureShortCircuitEnabled = true
+#Maximum bound Wind Logger wind/graph refreshes per level tick.
+# Default: 4
+# Range: 1 ~ 64
+windLoggerRefreshesPerLevelTick = 4
+#Use a level-aware primitive cache for PMWeather fire intensity lookups.
+fireIntensityCacheEnabled = true
+#Maximum fire-intensity cache entries per level during each 20-tick epoch.
+# Default: 4096
+# Range: 64 ~ 65536
+fireIntensityCacheMaximumSize = 4096
+#Send chunk moisture updates only to players tracking that chunk.
+trackedMoistureSyncEnabled = true
+#Horizontal block size of the same-tick thermodynamic cache.
+# Default: 8
+# Range: 1 ~ 32
+atmosphereCacheCellSize = 8
+#Enable experimental thermodynamic optimizations.
+thermodynamicOptimizationEnabled = false
+#Enable experimental thermodynamic worker multithreading.
+experimentalMultithreadingEnabled = false
+#Number of experimental thermodynamic worker threads.
+# Default: 1
+# Range: 1 ~ 2
+experimentalWorkerThreads = 1
