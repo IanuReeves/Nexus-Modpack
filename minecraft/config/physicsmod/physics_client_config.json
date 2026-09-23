@@ -120,7 +120,7 @@
   "fftOcean": {
     "windTurbulence": 0.096
   },
-  "oceanAdjustHitbox": false,
+  "oceanAdjustHitbox": true,
   "oceanDetail": 1.0,
   "oceanWaveHeightMultiplier": 1.0,
   "oceanBlockRange": 32,

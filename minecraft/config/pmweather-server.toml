@@ -120,7 +120,7 @@
 	#Rain Modifier
 	# Default: 0.8
 	# Range: 0.0 ~ 1.25
-	rainstrength = 0.4
+	rainstrength = 1.25
 	#Height of first cloud layer
 	# Default: 315.0
 	# Range: 150.0 ~ 350.0

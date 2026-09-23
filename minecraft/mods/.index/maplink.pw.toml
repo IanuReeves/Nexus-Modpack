@@ -1,0 +1,33 @@
+filename = 'maplink-neoforge-4.6.0-1.21-1.21.1.jar'
+name = "Map Link  (formerly Remote Player Waypoints for Xaero's Map)"
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.6.0'
+
+[download]
+hash = '7290855c06cc66a34539cbc6a83a25b12724125ff150b263a9839af91cff4b3a75d4e484411f4ec50a25bc30c4250394115960b7f00632b4915009aac9cc63d5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kiByZ6gx/versions/b1lBY4w8/maplink-neoforge-4.6.0-1.21-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'kiByZ6gx'
+version = 'b1lBY4w8'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'JkSi2Fzx'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NcUtCpym'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1bokaNcj'
+type = 'OPTIONAL'
