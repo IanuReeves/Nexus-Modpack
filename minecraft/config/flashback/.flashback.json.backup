@@ -1,0 +1,107 @@
+{
+  "configVersion": -1,
+  "recordingControls": {
+    "controlsLocation": "RIGHT",
+    "automaticallyStart": false,
+    "automaticallyFinish": true,
+    "showRecordingToasts": true,
+    "quicksave": false
+  },
+  "recording": {
+    "markDimensionChanges": true,
+    "recordHotbar": false,
+    "localPlayerUpdatesPerSecond": 20,
+    "recordVoiceChat": false,
+    "recordBobbyIntoReplay": false
+  },
+  "exporting": {
+    "defaultExportFilename": "%date%T%time%",
+    "exportRenderDummyFrames": 0
+  },
+  "keyframes": {
+    "defaultInterpolationType": "SMOOTH",
+    "useRealtimeInterpolation": true
+  },
+  "editorMovement": {
+    "flightDirection": "HORIZONTAL",
+    "flightMomentum": 1.0,
+    "flightLockX": false,
+    "flightLockY": false,
+    "flightLockZ": false,
+    "flightLockYaw": false,
+    "flightLockPitch": false
+  },
+  "marker": {
+    "markerOptions1": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    },
+    "markerOptions2": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    },
+    "markerOptions3": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    },
+    "markerOptions4": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    }
+  },
+  "advanced": {
+    "disableIncreasedFirstPersonUpdates": false,
+    "disableThirdPersonCancel": false,
+    "synchronizeTicking": false,
+    "ignoredCustomPayloads": ""
+  },
+  "internal": {
+    "recentReplays": [
+      "/home/iangu/.local/share/PrismLauncher/instances/Nexus-Modpack(1)/minecraft/flashback/replays/2026-09-23T22_23_49.zip"
+    ],
+    "openedWindows": [],
+    "nextUnsupportedModLoaderWarning": 0,
+    "filterUnnecessaryPackets": true,
+    "signedRenderFilter": true,
+    "viewedTipsOfTheDay": 1,
+    "showTipOfTheDay": true,
+    "nextTipOfTheDay": 1790310243683,
+    "replaySorting": "CREATED_DATE",
+    "sortDescending": true,
+    "defaultOverrideFov": 70.0,
+    "enableOverrideFovByDefault": false,
+    "nfdUsePortal": true
+  },
+  "internalExport": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "framerate": [
+      60.0
+    ],
+    "resetRng": false,
+    "ssaa": true,
+    "noGui": false,
+    "container": "MP4",
+    "videoCodec": "H264",
+    "selectedVideoEncoder": [
+      0
+    ],
+    "useMaximumBitrate": false,
+    "recordAudio": true,
+    "transparentBackground": false,
+    "audioCodec": "AAC",
+    "stereoAudio": false,
+    "defaultExportPath": "/home/iangu/Downloads"
+  },
+  "forceDefaultExportSettings": {}
+}

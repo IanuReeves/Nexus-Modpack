@@ -31,7 +31,7 @@
     "ctt-posttick-timeout-guard": true,
     "effortless-particle-fix": true,
     "vista-camera-chunk-fix": true,
-    "sable-scalablelux-incompat-bypass": false,
+    "sable-scalablelux-incompat-bypass": true,
     "scalablelux-compat": true,
     "constraint-self-fix": true,
     "world-height-override": false,

@@ -1,0 +1,46 @@
+filename = '3d-armor-0.9.4.2-mod.jar'
+name = '3D Armor'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2',
+    '26.3'
+]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.9.4.2'
+
+[download]
+hash = 'ad112495b578fcce82d0a05cac1c8200a9a0edfc9470c76d07565962d7522ddd706e93c726173686724f632086dc80ddde248a9397338b0e12eb91dff0a483b1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XhxKIfGG/versions/ap0X7Uod/3d-armor-0.9.4.2-mod.jar'
+
+[update.modrinth]
+mod-id = 'XhxKIfGG'
+version = 'ap0X7Uod'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4I1XuqiY'
+type = 'REQUIRED'

@@ -17,13 +17,13 @@ mod-id = 'ndHYMY2K'
 version = '6ZQz5Ow2'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'YL57xq9U'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'AANobbMI'
 type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'OPTIONAL'

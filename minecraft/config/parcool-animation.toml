@@ -11,14 +11,14 @@
 		"parcool:hang_on" = true
 		"parcool:climb_up" = true
 		"parcool:climb_up_jump" = true
-		"parcool:trick_jump_back" = true
-		"parcool:trick_jump_forward" = true
+		"parcool:trick_jump_back" = false
+		"parcool:trick_jump_forward" = false
 		"parcool:stride" = true
 		"parcool:slide_down" = true
 		"parcool:breakfall_no_move" = true
 		"parcool:breakfall_forward" = true
 		"parcool:horizontal_wall_run" = true
-		"parcool:slide" = false
+		"parcool:slide" = true
 		"parcool:dive" = true
 		"parcool:skydive" = true
 		"parcool:dive_in_air" = true

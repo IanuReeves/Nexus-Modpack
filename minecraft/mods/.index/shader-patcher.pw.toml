@@ -1,0 +1,18 @@
+filename = 'ShaderPatcher-NeoForge 1.21-0.4.jar'
+name = 'Shader Patcher'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4'
+
+[download]
+hash = '770fd2fedd90fed2f1926bff829466ed2e93e3f7e14c81c2e638ed55e3ad18b4385eb44503cb82483a596e09c6d6b46fe9422c4b0b28ffd82e51adb639a508e8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uzJeRux8/versions/z7H86DMc/ShaderPatcher-NeoForge 1.21-0.4.jar'
+
+[update.modrinth]
+mod-id = 'uzJeRux8'
+version = 'z7H86DMc'

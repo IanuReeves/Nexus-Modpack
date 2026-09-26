@@ -483,7 +483,7 @@ welcomeMessage = true
 	#Turn this on if you want the stream look without changing how water behaves anywhere else.
 	#Perf: negligible either way.
 	#World: safe on an existing world -- applies the moment you save, everywhere.
-	spillOnStreamsOnly = false
+	spillOnStreamsOnly = true
 	#
 	#Load chunks faster on packs that generate chunks in parallel. Has no effect otherwise.
 	#Turn this OFF if world generation crashes, or if chunks stop loading around you.
@@ -560,7 +560,7 @@ welcomeMessage = true
 	#World: safe on an existing world -- applies the moment you save.
 	# Default: 1
 	# Range: 0 ~ 1
-	physicsModWater = 1
+	physicsModWater = 0
 	#
 	#When the Flowing Fluids mod is installed, fill stream channels with our own dedicated stream
 	#fluid instead of plain water. Flowing Fluids makes vanilla water finite and lets it drain away,

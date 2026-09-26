@@ -21,9 +21,9 @@ addonId = 'HZmhgdJk'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'R8uGDQpB'
+addonId = '7bdKEtKC'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '7bdKEtKC'
+addonId = 'R8uGDQpB'
 type = 'REQUIRED'

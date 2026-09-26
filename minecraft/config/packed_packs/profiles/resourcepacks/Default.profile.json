@@ -18,9 +18,10 @@
     "file/ETF Button Remagined v1.2.0.zip",
     "file/FA+Player-v1.1.zip",
     "file/FreshAnimations_v1.10.4.zip",
-    "mod/sound_physics_remastered:resourcepacks/create_train_long_range",
-    "mod/sound_physics_remastered:resourcepacks/amplified_aeronautics_propellers",
+    "aeronauticshotairfix:hot_air_fix",
     "mod_resources",
-    "vanilla"
+    "fabric",
+    "vanilla",
+    "mod/punchy:resourcepacks/punchy"
   ]
 }

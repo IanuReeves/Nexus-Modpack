@@ -17,9 +17,9 @@ mod-id = 'v3UlehfS'
 version = 'NactTrv2'
 
 [[x-prismlauncher-dependencies]]
-addonId = '6YTvv3aI'
+addonId = 'bN3xUWdo'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'bN3xUWdo'
+addonId = '6YTvv3aI'
 type = 'REQUIRED'

@@ -1,9 +1,9 @@
 {
   "enabled": true,
-  "structures": false,
+  "structures": true,
   "trees": true,
   "waterFeatures": true,
-  "distantTerrain": "AUTO",
+  "distantTerrain": "FULL",
   "extendedDistanceChunks": 0,
   "throughput": "AGGRESSIVE"
 }

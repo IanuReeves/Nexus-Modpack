@@ -17,9 +17,9 @@ mod-id = '4v5Na7b9'
 version = 'JwYLe1Y0'
 
 [[x-prismlauncher-dependencies]]
-addonId = '5WeWGLoJ'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'QAGBst4M'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5WeWGLoJ'
+type = 'OPTIONAL'

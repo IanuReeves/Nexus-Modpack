@@ -34,11 +34,11 @@ addonId = 'YhmgMVyu'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'uHWrqYcS'
+addonId = 'LOpKHB2A'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'LOpKHB2A'
+addonId = 'uHWrqYcS'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
